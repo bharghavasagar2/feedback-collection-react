@@ -17,5 +17,6 @@ ReactDOM.render(
   </Provider>,
   document.getElementById("root")
 );
-
+console.log("stripe key", process.env.REACT_APP_STRIKE_KEY);
+console.log("environemnt key", process.env.NODE_ENV);
 // serviceWorker.unregister();
